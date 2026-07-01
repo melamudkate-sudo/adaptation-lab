@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adaptation Lab — система адаптации персонала под ключ</title>
+<meta name="description" content="B2B-консалтинг: проектируем и внедряем систему адаптации новых сотрудников за 8–12 недель. Без vendor lock-in. Для компаний 50–250 человек.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&amp;family=Onest:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ========================= ШАПКА ========================= -->
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a href="index.html" class="logo" aria-label="Adaptation Lab">
+      <svg class="logo-mark" viewBox="0 0 32 36" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="16,2 30,10 30,26 16,34 2,26 2,10"/>
+        <text x="16" y="22" text-anchor="middle">AL</text>
+      </svg>
+      Adaptation&nbsp;Lab
+    </a>
+
+    <nav class="nav" aria-label="Главное меню">
+      <a href="services.html" data-page="services.html">Услуги</a>
+      <a href="cases.html" data-page="cases.html">Кейсы</a>
+      <a href="index.html#approach" data-page="index.html">Подход</a>
+      <a href="index.html#team" data-page="index.html">Команда</a>
+      <a href="index.html#faq" data-page="index.html">FAQ</a>
+      <a href="index.html#contact" class="nav-cta">Бесплатная диагностика <span class="arrow">→</span></a>
+    </nav>
+
+    <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<!-- ========================= HERO ========================= -->
+<section class="hero">
+  <div class="container hero__inner">
+    <div class="hero__copy">
+      <span class="hero__eyebrow">B2B Embedded Consulting</span>
+      <h1>Система адаптации персонала <em>под ключ</em> за 8–12 недель.</h1>
+      <p class="hero__lede">
+        Встраиваемся в ваш бизнес, проектируем процесс онбординга и передаём
+        работающую систему — на вашей инфраструктуре, без подписки и привязки к подрядчику.
+      </p>
+      <div class="hero__cta">
+        <a href="#contact" class="btn btn--primary">Записаться на диагностику <span class="arrow">→</span></a>
+        <a href="services.html" class="btn btn--secondary">Посмотреть услуги</a>
+      </div>
+    </div>
+
+    <div class="hero__visual" aria-hidden="true">
+      <svg viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="hexGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#4A7C6F"/>
+            <stop offset="100%" stop-color="#3E6A5E"/>
+          </linearGradient>
+        </defs>
+        <!-- Внешний шестиугольник -->
+        <polygon points="210,30 360,110 360,310 210,390 60,310 60,110" fill="none" stroke="#4A7C6F" stroke-width="1.5" opacity="0.35"/>
+        <!-- Средний -->
+        <polygon points="210,80 320,140 320,280 210,340 100,280 100,140" fill="none" stroke="#4A7C6F" stroke-width="1.5" opacity="0.5"/>
+        <!-- Внутренний (заполненный) -->
+        <polygon points="210,130 280,170 280,250 210,290 140,250 140,170" fill="url(#hexGrad)"/>
+        <!-- Маленькие узлы -->
+        <circle cx="210" cy="130" r="6" fill="#C8B99A"/>
+        <circle cx="280" cy="170" r="5" fill="#6B9E91"/>
+        <circle cx="140" cy="250" r="5" fill="#6B9E91"/>
+        <text x="210" y="218" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-style="italic" font-size="44" fill="#F6F1E7">AL</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= TRUST BAR ========================= -->
+<section class="trust-bar">
+  <div class="container">
+    <div class="trust-bar__grid">
+      <div class="trust-stat">
+        <span class="trust-stat__num">8–12</span>
+        <span class="trust-stat__label">недель полный цикл проекта</span>
+      </div>
+      <div class="trust-stat">
+        <span class="trust-stat__num">−30%</span>
+        <span class="trust-stat__label">текучка на испытательном<br>после внедрения</span>
+      </div>
+      <div class="trust-stat">
+        <span class="trust-stat__num">×3</span>
+        <span class="trust-stat__label">быстрее выход новичка<br>на производительность</span>
+      </div>
+      <div class="trust-stat">
+        <span class="trust-stat__num">0</span>
+        <span class="trust-stat__label">подписок и vendor&nbsp;lock-in<br>после проекта</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= ЗНАКОМО? ========================= -->
+<section class="section section--cream">
+  <div class="container">
+    <div class="section-header">
+      <span class="section__eyebrow">Знакомо?</span>
+      <h2>Адаптация в вашей компании <em>держится на людях</em>, а не на системе.</h2>
+      <p class="section__lede">
+        В среднем бизнесе 50–250 человек проблема не в плохих кандидатах, а в том,
+        что онбординг сложился стихийно. Вот по каким признакам это видно.
+      </p>
+    </div>
+
+    <div class="pain-grid">
+      <div class="pain-card">
+        <div class="pain-card__icon">↺</div>
+        <div>
+          <div class="pain-card__title">Новички уходят на испытательном</div>
+          <div class="pain-card__body">Каждый третий не доходит до конца 90 дней — и компания заново тратит бюджет на поиск.</div>
+        </div>
+      </div>
+      <div class="pain-card">
+        <div class="pain-card__icon">!</div>
+        <div>
+          <div class="pain-card__title">Знания живут «в головах»</div>
+          <div class="pain-card__body">Критичные процессы держатся на 2–3 ключевых людях. Их уход — потеря экспертизы на месяцы.</div>
+        </div>
+      </div>
+      <div class="pain-card">
+        <div class="pain-card__icon">⏱</div>
+        <div>
+          <div class="pain-card__title">Руководители тушат пожары</div>
+          <div class="pain-card__body">Тимлиды и менеджеры тратят рабочее время на повторное обучение вместо своей работы.</div>
+        </div>
+      </div>
+      <div class="pain-card">
+        <div class="pain-card__icon">↗</div>
+        <div>
+          <div class="pain-card__title">HR не видит цифр</div>
+          <div class="pain-card__body">Нет метрик текучки, времени выхода на результат и NPS новичка — нечем доказать ценность работы CEO.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= УСЛУГИ ПРЕВЬЮ ========================= -->
+<section class="section section--cream2" id="packages">
+  <div class="container">
+    <div class="section-header">
+      <span class="section__eyebrow">Услуги</span>
+      <h2>Три пакета — под размер задачи и бюджет.</h2>
+      <p class="section__lede">
+        Все три пакета включают одну методологию — отличаются глубиной проникновения и сроком.
+        Если не уверены, начните с диагностики — поможем выбрать на встрече.
+      </p>
+    </div>
+
+    <div class="packages">
+      <div class="package">
+        <span class="package__name">Lite</span>
+        <h3 class="package__title">Онбординг<br>в одном отделе</h3>
+        <div class="package__price">от 300 000 ₽<small>/проект</small></div>
+        <div class="package__term">4–6 недель</div>
+        <ul class="package__features">
+          <li>Диагностика одного отдела</li>
+          <li>Маршрут новичка 30/60/90</li>
+          <li>База знаний в Notion / YandexWiki</li>
+          <li>Чек-листы для HR и руководителя</li>
+        </ul>
+        <a href="services.html#lite" class="btn btn--secondary">Подробнее</a>
+      </div>
+
+      <div class="package package--featured">
+        <span class="package__badge">Популярный</span>
+        <span class="package__name">Standard</span>
+        <h3 class="package__title">Система адаптации<br>под ключ</h3>
+        <div class="package__price">600–800k ₽<small>/проект</small></div>
+        <div class="package__term">8–12 недель</div>
+        <ul class="package__features">
+          <li>Диагностика всей компании</li>
+          <li>Маршруты для всех ролей</li>
+          <li>База знаний + регламенты + видео</li>
+          <li>Dashboards для HR и CEO</li>
+          <li>Сопровождение 30 дней</li>
+        </ul>
+        <a href="services.html#standard" class="btn btn--white">Подробнее</a>
+      </div>
+
+      <div class="package">
+        <span class="package__name">Enterprise</span>
+        <h3 class="package__title">Тиражирование<br>на филиалы / группы</h3>
+        <div class="package__price">от 1,2 млн ₽<small>/проект</small></div>
+        <div class="package__term">12–20 недель</div>
+        <ul class="package__features">
+          <li>Всё из Standard</li>
+          <li>Единый стандарт для филиалов</li>
+          <li>AI-ассистент новичка</li>
+          <li>AL Academy для HR-команды</li>
+          <li>Годовое сопровождение</li>
+        </ul>
+        <a href="services.html#enterprise" class="btn btn--secondary">Подробнее</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= ПОДХОД ========================= -->
+<section class="section section--cream" id="approach">
+  <div class="container">
+    <div class="section-header">
+      <span class="section__eyebrow">Подход · 5 модулей</span>
+      <h2>Не отчёт. Не платформа. <em>Работающая система.</em></h2>
+      <p class="section__lede">
+        За 8–12 недель команда из 3–4 консультантов проходит пять этапов и оставляет
+        систему, которую ваш HR может поддерживать самостоятельно.
+      </p>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step__num">01</div>
+        <div class="step__title">Диагностика</div>
+        <p class="step__body">Интервью с CEO, HR, руководителями и новичками. Карта процессов «как есть», метрики текучки и времени выхода.</p>
+        <div class="step__weeks">Нед. 1–2</div>
+      </div>
+      <div class="step">
+        <div class="step__num">02</div>
+        <div class="step__title">Маршрут новичка</div>
+        <p class="step__body">Путь от оффера до конца испытательного с контрольными точками 1, 7, 30, 90 дней. Чек-листы для всех ролей.</p>
+        <div class="step__weeks">Нед. 3–5</div>
+      </div>
+      <div class="step">
+        <div class="step__num">03</div>
+        <div class="step__title">База знаний</div>
+        <p class="step__body">Welcome Book, регламенты, инструкции, видео — на инструментах клиента: Notion, YandexWiki, Confluence или вашей LMS.</p>
+        <div class="step__weeks">Нед. 6–9</div>
+      </div>
+      <div class="step">
+        <div class="step__num">04</div>
+        <div class="step__title">Метрики и панели</div>
+        <p class="step__body">Dashboards для HR и CEO: текучка, NPS новичка, скорость выхода на результат. Опросы на 30/60/90 дней.</p>
+        <div class="step__weeks">Онгоинг</div>
+      </div>
+      <div class="step">
+        <div class="step__num">05</div>
+        <div class="step__title">Сопровождение</div>
+        <p class="step__body">30 дней горячей линии и обучение HR-команды. Опционально — AI-ассистент новичка, годовой аудит, AL Academy.</p>
+        <div class="step__weeks">30 дн. + опции</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= КЕЙСЫ ПРЕВЬЮ ========================= -->
+<section class="section section--cream2" id="cases">
+  <div class="container">
+    <div class="section-header">
+      <span class="section__eyebrow">Кейсы</span>
+      <h2>Что меняется в цифрах после проекта.</h2>
+      <p class="section__lede">
+        Три истории клиентов разного размера — fintech-стартап, продуктовая студия
+        и сеть клиник. Полные кейсы — на странице «Кейсы».
+      </p>
+    </div>
+
+    <div class="cases-grid">
+      <div class="case-card">
+        <span class="case-card__industry">Fintech · 30 чел.</span>
+        <h3 class="case-card__title">«MoneyFlow»</h3>
+        <div class="case-card__metrics">
+          <div class="case-metric">
+            <div class="case-metric__num">−61%</div>
+            <div class="case-metric__label">текучка на испытательном</div>
+          </div>
+          <div class="case-metric">
+            <div class="case-metric__num">5 нед.</div>
+            <div class="case-metric__label">время выхода разработчика</div>
+          </div>
+        </div>
+        <p class="case-card__quote">«Половина моего CEO-времени уходила на онбординг. Теперь за это отвечает система.»</p>
+        <a href="cases.html#moneyflow" class="case-card__link">Читать кейс <span>→</span></a>
+      </div>
+
+      <div class="case-card">
+        <span class="case-card__industry">Дизайн-студия · 120 чел.</span>
+        <h3 class="case-card__title">«BluePrint Studio»</h3>
+        <div class="case-card__metrics">
+          <div class="case-metric">
+            <div class="case-metric__num">−54%</div>
+            <div class="case-metric__label">текучка на испытательном</div>
+          </div>
+          <div class="case-metric">
+            <div class="case-metric__num">8→1</div>
+            <div class="case-metric__label">единый стандарт онбординга для команд</div>
+          </div>
+        </div>
+        <p class="case-card__quote">«Восемь продуктовых команд жили как восемь разных компаний. Теперь у нас один процесс.»</p>
+        <a href="cases.html#blueprint" class="case-card__link">Читать кейс <span>→</span></a>
+      </div>
+
+      <div class="case-card">
+        <span class="case-card__industry">Сеть клиник · 200 чел.</span>
+        <h3 class="case-card__title">«АЛЬФА-Клиники»</h3>
+        <div class="case-card__metrics">
+          <div class="case-metric">
+            <div class="case-metric__num">−38%</div>
+            <div class="case-metric__label">текучка медсестёр за полгода</div>
+          </div>
+          <div class="case-metric">
+            <div class="case-metric__num">6→1</div>
+            <div class="case-metric__label">стандарт онбординга на все клиники</div>
+          </div>
+        </div>
+        <p class="case-card__quote">«Шесть клиник работали по-своему. Теперь сервис не зависит от управляющего конкретной точки.»</p>
+        <a href="cases.html#alfa" class="case-card__link">Читать кейс <span>→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= КОМАНДА ========================= -->
+<section class="section section--cream" id="team">
+  <div class="container">
+    <div class="section-header">
+      <span class="section__eyebrow">Команда</span>
+      <h2>Четыре фаундера. Тридцать лет опыта в HR, процессах и обучении.</h2>
+      <p class="section__lede">
+        Embedded-консалтинг — это работа на ваших условиях. Поэтому мы лично участвуем
+        в каждом проекте: один из нас всегда ведёт вашего HR-директора как партнёр.
+      </p>
+    </div>
+
+    <div class="team-grid">
+      <div class="team-member">
+        <div class="team-member__avatar">ВГ</div>
+        <div class="team-member__name">Валерия Горина</div>
+        <div class="team-member__role">Co-founder · HR Systems Design</div>
+      </div>
+      <div class="team-member">
+        <div class="team-member__avatar">ЕМ</div>
+        <div class="team-member__name">Екатерина Меламуд</div>
+        <div class="team-member__role">Co-founder · Methodology Lead</div>
+      </div>
+      <div class="team-member">
+        <div class="team-member__avatar">ИШ</div>
+        <div class="team-member__name">Иван Шарыго</div>
+        <div class="team-member__role">Co-founder · Process Architect</div>
+      </div>
+      <div class="team-member">
+        <div class="team-member__avatar">ЕП</div>
+        <div class="team-member__name">Евгений Поленов</div>
+        <div class="team-member__role">Co-founder · Go-to-Market</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= FAQ ========================= -->
+<section class="section section--cream2" id="faq">
+  <div class="container">
+    <div class="section-header center">
+      <span class="section__eyebrow">FAQ</span>
+      <h2>Что чаще всего спрашивают на первой встрече.</h2>
+    </div>
+
+    <div class="faq">
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false">
+          <span>Чем вы отличаетесь от классического HR-консалтинга?</span>
+          <span class="faq__icon">+</span>
+        </button>
+        <div class="faq__a">
+          <div class="faq__a-inner">
+            Классический консалтинг продаёт отчёт с рекомендациями — внедрять его вы будете сами.
+            Мы продаём результат: команда из 3–4 консультантов 8–12 недель работает внутри
+            вашей компании, собирает систему и передаёт обученной HR-команде. После проекта
+            у вас остаётся работающий процесс, а не папка PDF.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false">
+          <span>Что значит «без vendor lock-in»?</span>
+          <span class="faq__icon">+</span>
+        </button>
+        <div class="faq__a">
+          <div class="faq__a-inner">
+            У нас нет собственной SaaS-платформы. Систему собираем на инструментах, которые
+            уже есть у вас: 1С ЗУП, корпоративный портал, Notion / YandexWiki / Confluence,
+            ваша LMS (iSpring, Поток, WebSoft, Mirapolis). После проекта вы не платите нам
+            подписку и не зависите от наших серверов.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false">
+          <span>За какое время виден результат?</span>
+          <span class="faq__icon">+</span>
+        </button>
+        <div class="faq__a">
+          <div class="faq__a-inner">
+            Первые артефакты (документы и регламенты) — на 3–5 неделе проекта. Изменения в
+            метриках текучки и времени выхода видны через 3–6 месяцев после внедрения, потому
+            что нужен полный цикл найма и испытательного срока новых сотрудников.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false">
+          <span>Что если у нас уже есть HR-команда?</span>
+          <span class="faq__icon">+</span>
+        </button>
+        <div class="faq__a">
+          <div class="faq__a-inner">
+            Это идеальный сценарий. Мы работаем не вместо HR, а вместе с ним. По итогам
+            проекта ваш HR владеет системой и поддерживает её самостоятельно. Если HR-команды
+            нет, мы помогаем нанять одного-двух человек, которые потом ведут процесс.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false">
+          <span>Подходит ли это для производственной/розничной компании?</span>
+          <span class="faq__icon">+</span>
+        </button>
+        <div class="faq__a">
+          <div class="faq__a-inner">
+            Да. У нас есть отдельный сценарий для бизнеса с распределёнными точками — единый
+            стандарт онбординга, видео-инструкции, чек-листы для управляющих смен. Это
+            пакет Enterprise с тиражированием.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false">
+          <span>Как выбрать пакет: Lite, Standard или Enterprise?</span>
+          <span class="faq__icon">+</span>
+        </button>
+        <div class="faq__a">
+          <div class="faq__a-inner">
+            Если хотите проверить наш подход на одном отделе — берите Lite. Если меняете
+            систему адаптации в компании 50–250 человек — Standard. Если нужно тиражировать
+            на филиалы или нужны допмодули (AI-ассистент, AL Academy) — Enterprise. На первой
+            встрече мы поможем определиться бесплатно.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= CTA + ФОРМА ========================= -->
+<section class="cta-banner" id="contact">
+  <div class="container">
+    <div class="cta-banner__inner">
+      <div>
+        <h2>Запишитесь на бесплатную диагностику.</h2>
+        <p>30 минут видеозвонка. Покажем, как устроена ваша адаптация сейчас, какие три проблемы решаются за 4 недели и какой пакет вам подходит. Без презентации продукта — только разбор вашей ситуации.</p>
+      </div>
+
+      <div class="cta-banner__buttons">
+        <a href="#contact-form" class="btn btn--white">Оставить заявку <span class="arrow">→</span></a>
+        <a href="mailto:hello@adaptation-lab.ru" class="btn btn--ghost">hello@adaptation-lab.ru</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--cream">
+  <div class="container">
+    <div class="section-header center">
+      <span class="section__eyebrow">Связаться с нами</span>
+      <h2>Расскажите, какая <em>задача</em>.</h2>
+      <p class="section__lede">
+        Ответим в течение одного рабочего дня. Никаких рассылок и звонков — только письмо
+        с предложением времени встречи.
+      </p>
+    </div>
+
+    <form class="form" id="contact-form" novalidate>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Имя</label>
+          <input type="text" id="name" name="name" required autocomplete="name" placeholder="Анна">
+        </div>
+        <div class="form-group">
+          <label for="company">Компания</label>
+          <input type="text" id="company" name="company" required autocomplete="organization" placeholder="OOO «Компания»">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required autocomplete="email" placeholder="anna@company.ru">
+        </div>
+        <div class="form-group">
+          <label for="size">Размер компании</label>
+          <select id="size" name="size" required>
+            <option value="">Выберите</option>
+            <option value="lt50">До 50 человек</option>
+            <option value="50-150">50–150 человек</option>
+            <option value="150-250">150–250 человек</option>
+            <option value="250+">Больше 250</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Расскажите о ситуации</label>
+        <textarea id="message" name="message" placeholder="Например: за последний год ушло 4 разработчика на испытательном. Хотим понять, что делаем не так."></textarea>
+      </div>
+
+      <p class="form__small">
+        Нажимая «Отправить», вы соглашаетесь с <a href="#">политикой обработки персональных данных</a>.
+        Мы не передаём ваши контакты третьим лицам и не подписываем на рассылку без вашего согласия.
+      </p>
+
+      <button type="submit" class="btn btn--primary">Отправить заявку <span class="arrow">→</span></button>
+
+      <div class="form__success" role="status">
+        Спасибо! Заявка получена. Ответим в течение одного рабочего дня на указанный email.
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ========================= ФУТЕР ========================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__top">
+      <div>
+        <div class="site-footer__brand">Adaptation Lab</div>
+        <p>B2B-консалтинг по созданию системы адаптации<br>и обучения персонала под ключ.</p>
+      </div>
+      <div>
+        <h4>Навигация</h4>
+        <ul>
+          <li><a href="services.html">Услуги</a></li>
+          <li><a href="cases.html">Кейсы</a></li>
+          <li><a href="index.html#approach">Подход</a></li>
+          <li><a href="index.html#team">Команда</a></li>
+          <li><a href="index.html#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Контакты</h4>
+        <ul>
+          <li><a href="mailto:hello@adaptation-lab.ru">hello@adaptation-lab.ru</a></li>
+          <li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+          <li>Москва, Большой Гнездниковский, 7</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Соцсети</h4>
+        <ul>
+          <li><a href="#">Telegram-канал</a></li>
+          <li><a href="#">VC.ru</a></li>
+          <li><a href="#">Habr Career</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="site-footer__bottom">
+      <span>© <span data-year>2026</span> Adaptation Lab. Все права защищены.</span>
+      <span><a href="#">Политика конфиденциальности</a> · <a href="#">Условия оказания услуг</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
